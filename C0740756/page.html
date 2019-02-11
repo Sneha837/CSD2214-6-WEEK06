@@ -6,14 +6,19 @@
 <body>
     <script>
         document.write("Hello");
+        var input1 = prompt("how high should i count up to");
         var sum = 0;
-        for (var i = 0; i < 10; i++)
-        {
+        for (var i = 0; i <= input1; i++) {
+            document.write("<p>Point A:i is " + i);
+            document.write("<p>Point B: sum is " + sum);
             sum += i;
+            document.write("<p>Point B: sum is " + sum);
         }
+        document.write("<hr><p>Point C: i is " + i);
+
         document.write(sum);
 
     </script>
-    <div>Content goes here.</div>
+    
 </body>
 </html>
